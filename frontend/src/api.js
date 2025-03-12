@@ -1,7 +1,7 @@
 import axios from "axios";
 import { ACCESS_TOKEN } from "./constants";
 
-const apiUrl = "http://127.0.0.1:8000/";
+const apiUrl = "https://8b499734-c311-48c8-a520-63c0dc3eb81f-dev.e1-eu-north-azure.choreoapis.dev/testowy/backend/v1.0";
 
 const api = axios.create({
   baseURL: import.meta.env.VITE_API_URL ? import.meta.env.VITE_API_URL : apiUrl,
