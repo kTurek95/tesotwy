@@ -1,1 +1,1 @@
-echo web: npm run start > Procfile
+web: serve -s build 
